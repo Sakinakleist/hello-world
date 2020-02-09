@@ -1,17 +1,331 @@
 * {
-  margin:0px;
-  padding:0px;
+    box-sizing: border-box;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+body {
+    margin: 12vw;
+    padding: 12;
+    background-image: url(lala-v-1nrY9CLAGcI-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    color: #593825;
+    font-family: 'Raleway', sans-serif;
+
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+
+section {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+}
+
+#startside {
+    position: relative;
+    text-align: center;
+    font-size: 5vw;
+    margin: 5vw;
+
+}
+
+
+#startside .wrap .dot {
+    text-align: center;
+    height: 45vw;
+    width: 45vw;
+    /*    background-color: #BFA89B;*/
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    line-height: 5;
+    color: #593825;
+    box-shadow: 0 0.50vw #D9C5B4;
+    font-family: 'Gochi Hand', cursive;
+}
+
+
+#portfolio {
+    top: 110vw;
+    left: 30vw;
+    line-height: 5;
+    background-color: #F2E8DF;
+
+
+}
+
+#om_mig {
+    top: 60vw;
+    left: 30vw;
+    /*    line-height: 5;*/
+    background-color: #D9C5B4;
+}
+
+#forside {
+    top: 10vw;
+    left: 30vw;
+    line-height: 5;
+    background-color: #C4AD9F;
+
+}
+
+.ombaggrund {
+
+
+    background-image: url(ommig.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+
+img {
+    border-radius: 100%;
+    height: 40vw;
+    width: 40vw;
+    position: absolute;
+    top: 340vw;
+    left: 40vw;
+}
+
+
+#om_mig #tekst {
+    font-family: 'Raleway', sans-serif;
+    color: #593825;
+    text-align: center;
+    padding: 15vw;
+    background-color: #F2E8DF;
+}
+
+/*
+#portfolior .tema .dot {
+    text-align: center;
+    height: 155px;
+    width: 155px;
+    background-color: #BFA89B;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+
+    line-height: 5;
+    color: #593825;
+    font-family: 'Raleway', sans-serif;
+
+}
+*/
+
+/*
+#tema2 {
+    top: 390vw;
+    left: 6vw;
+    line-height: 5;
+    color: #593825;
+
+}
+
+#tema3 {
+    top: 390vw;
+    left: 50vw;
+    line-height: 5;
+    color: #593825;
+
+}
+
+#tema4 {
+    top: 440vw;
+    left: 6vw;
+    line-height: 5;
+    color: #593825;
+}
+
+#tema5 {
+    top: 440vw;
+    left: 50vw;
+    line-height: 5;
+    color: #593825;
+*/
+
+}
+
+
+/*------Media----*/
+@media only screen and (min-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+
+    section {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+    }
+
+    #startside {
+        position: relative;
+        text-align: center;
+
+        font-size: 3vw;
+
+        font-family: 'Inria Serif', serif;
+    }
+
+    #startside .wrap .dot {
+        display: inline-block;
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .baggrund {
+        background-image: url(lala-v-1nrY9CLAGcI-unsplash.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+    }
+
+    #forside {
+        height: 50px;
+        width: 50px;
+        background-color: #BFA89B;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        top: 15vw;
+        left: 37vw;
+        line-height: 3;
+        text-align: center;
+    }
+
+    #om_mig {
+        height: 50px;
+        width: 50px;
+        background-color: #BFA89B;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        top: 15vw;
+        left: 5vw;
+        line-height: 3;
+        text-align: center;
+    }
+
+    img {
+        border-radius: 100%;
+        height: 20vw;
+        width: 20vw;
+        position: absolute;
+        top: 100vw;
+        left: 40vw;
+    }
+
+    #portfolio {
+        height: 50px;
+        width: 50px;
+        background-color: #BFA89B;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        top: 15vw;
+        left: 68vw;
+        line-height: 3;
+        text-align: center;
+    }
+
+
+    #portfolior .tema .dot {
+        text-align: center;
+        height: 250px;
+        width: 250px;
+        background-color: #BFA89B;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+
+        /*        line-height: 5;*/
+        color: #593825;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    #tema #tekst {
+        font-family: 'Raleway', sans-serif;
+        color: #593825;
+        text-align: center;
+        padding: 5vw;
+
+    }
+
+    #tema2 {
+        display: inline-block;
+        position: absolute;
+        top: 140vw;
+        left: 15vw;
+        box-shadow: 0 0.50vw #D9C5B4;
+    }
+
+    #tema3 {
+        display: inline-block;
+        position: absolute;
+        top: 140vw;
+        left: 60vw;
+        box-shadow: 0 0.50vw #D9C5B4;
+    }
+
+    #tema4 {
+        display: inline-block;
+        position: absolute;
+        top: 170vw;
+        left: 15vw;
+        box-shadow: 0 0.50vw #D9C5B4;
+    }
+
+    #tema5 {
+        display: inline-block;
+        position: absolute;
+        top: 170vw;
+        left: 60vw;
+        box-shadow: 0 0.50vw #D9C5B4;
+    }
+
+
+
+
+
+
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #BFA89B;
+    /*    overflow-x: hidden;*/
+    padding-top: 16px;
+}
+
+.sidebar a {
+    padding: 13px 20px 20px 19px;
+    text-decoration: none;
+    font-size: 30px;
+    /*    color: #818181;*/
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    /*    color: #f1f1f1;*/
+    color: #593825;
+
 }
